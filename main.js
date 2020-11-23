@@ -51,5 +51,16 @@ function gotResult(error,results) {
         document.getElementById("update_emoji").innerHTML = "😢";
     }
     
+        if (results[1].label == "happy") {
+        document.getElementById("update_emoji").innerHTML = "😃";
+    }
+    
+        if (results[1].label == "angry") {
+        document.getElementById("update_emoji").innerHTML = "👿";
+    }
+            if (results[1].label == "sad") {
+        document.getElementById("update_emoji").innerHTML = "😢";
+    }
+    
 }
     
