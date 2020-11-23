@@ -37,5 +37,6 @@ function gotResult(error,results) {
     
     else {
         console.log(results);
+        document.getElementById("result_emotion_name").innerHTML = results[0].label;
     }
 }
